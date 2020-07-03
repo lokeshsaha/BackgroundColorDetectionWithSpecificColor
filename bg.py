@@ -68,24 +68,9 @@ if __name__ == "__main__":
             print("This image has a absolute white background color")
             sys.exit(0)
         print("This image does not match with most instances of white background color")
-        #img = cv2.imread(sys.argv[1], cv2.IMREAD_GRAYSCALE)
-        #laplacian_var = cv2.Laplacian(img, cv2.CV_64F).var()
-        #print("laplacian threshold of blur",laplacian_var)
-        #if laplacian_var < 100:
-         #  print("Image is blurry")
-        #else:
-         #   print("Image is not blurred")
+        
+      
 
-        #r_min = 161 #175
-        #r_max = 255
-        #g_min = 180
-        #g_max = 255
-        #b_min = 173
-        #b_max = 255
-
-        #if r_min <= average_color[0] <= r_max and g_min <= average_color[1] <= g_max and b_min <= average_color[2] <= b_max:
-         #   print("This image has a absolute white background color")
-          #  sys.exit(0)
-        #print("This image does not match with most instances of white background color")
+       
 
 
